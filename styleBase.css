@@ -1,0 +1,25 @@
+/* classes communes */
+
+.flex {
+    display: flex ;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.flexRow {
+    flex-direction: row;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
