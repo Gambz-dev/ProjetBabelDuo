@@ -10,16 +10,16 @@ body {
     position: fixed;
 }
 .menuBurger {
-    height: 80px;
-    width: 80px;
-    background-color: #1E4D87;
+    height: 60px;
+    width: 60px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    background-color: #6487B2;
+    top: 20px;
+    left: 15px;
 }
 .ligneBurger {
-    height: 10px;
-    width: 60px;
+    height: 5px;
+    width: 40px;
     background-color: white;
     position: relative;
     border-radius: 10%;
@@ -69,7 +69,19 @@ input{
     transition: all 1s;
 }
 
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
 
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #1E4D87;
+    color: white;
+}
 .hexagon {
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     background-color: #6487B2;
@@ -84,16 +96,17 @@ input{
     width: 160%;
 }
 .account {
-    height: 80px;
-    width: 80px;
+    height: 55px;
+    width: 55px;
     position: relative;
     background-color: #1E4D87;
     border-radius: 50%;
     top: 10px;
     right: 30px;
+    top: 20px;
 }
 .fas {
-    font-size: 70px;
+    font-size: 45px;
 }
 .topRandom {
     position: absolute;
