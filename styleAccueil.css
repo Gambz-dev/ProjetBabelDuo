@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+}
+
+body { 
+    height: 100vh;
+    width: 100vw;
+    background-color: #1E4D87;
+    margin: 0;
+    padding: 0;
+    }
+
+img {
+    width: 40%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0)
+
+}
+
+.texte {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    top: 4%;
+}
+
+.balayage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    display: block;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.balayage {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.slidein {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    color: rgb(172, 31, 54);
+  }
+  
+  .stopped {
+    animation-name: none;
+  }
+  
+  @keyframes slidein {
+    0% {
+      margin-left: -50%;
+    }
+    50% {
+      margin-left: 50%;
+    }
+    100% {
+      margin-left: -50%;
+    }
+  }
