@@ -91,7 +91,7 @@ form:hover .fa{
 .logo {
     height: 100px;
     width: 140px;
-    left: 45.5%;
+    left: 45%;
 }
 .logo:hover {
     transform: scale(1.1);
@@ -119,7 +119,7 @@ form:hover .fa{
 .display {
     height: 45vh;
     width: 100vw;
-    background-image: url(backgroundAbyss.jpg);
+    background-image: url(backgroundWonderful.jpg);
     background-size: contain;
     opacity: 0.3;
 }
@@ -136,7 +136,7 @@ form:hover .fa{
     width: 20%;
     border: 3px solid white;
     left: 40%;
-    top: 15%;
+    top: 14.5%;
 }
 .name {
     width: 100vw;
@@ -274,6 +274,7 @@ form:hover .fa{
 
 /* bleu foncé : 1E4D87
 bleu clair : 6487B2 */
+
 
 @media screen and (min-width: 1900px) {
     .blackFilter {
